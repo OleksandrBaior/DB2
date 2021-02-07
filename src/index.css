@@ -1,13 +1,74 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    background: url(https://webfon.top/wp-content/uploads/2016/10/probka-1.jpg)
+}
+/*==================header==========================*/
+header {
+    display: flex;
+    justify-content: center;
+}
+.head {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.size_button {
+    font-size:15px;
+}
+.new-task {
+    width: 60%;
+}
+/*==================list==============================*/
+.main {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.sticker {
+    background: #ffaa12;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    margin: 5px;
+    width:50%;
+    height: auto;
+}
+.sticker-done {
+    background: #19d91c;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    margin: 5px;
+    width:50%;
+    height: auto;
+
+}
+.task {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.btn-task {
+    margin: 5px;
+}
+textarea{
+    overflow:hidden;
+    padding:5px;
+    width:250px;
+    font-size:14px;
+    margin:50px auto;
+    display:block;
+    border-radius:10px;
+    border:6px solid #556677;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
